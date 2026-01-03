@@ -26,10 +26,10 @@ from csv_export import CSVExporter
 # Default configuration
 CONSENSUS_STRATEGY_DEFAULT = "superposition"  # Linear sum (Minary approach)
 SEMANTICS = list(Perspectives[0].semantic_profile.semantics.keys())  # All m=19 dimensions
-DIMENSIONS_CONCURRENCY_DEFAULT = len(SEMANTICS)  # k = number of active dimensions per iteration
+DIMENSIONS_CONCURRENCY_DEFAULT = 3  # k = number of active dimensions per iteration
 DIMENSIONS_CONCURRENCY_MIN = 1
 DIMENSIONS_CONCURRENCY_MAX = len(SEMANTICS)
-DIMENSIONS_STRATEGY_DEFAULT = "independent"  # vs "coupled" for cross-dimensional effects
+DIMENSIONS_STRATEGY_DEFAULT = "coupled"  # vs "independent"
 CSV_EXPORT_ENABLED_DEFAULT = False
 PERSPECTIVES_COUNT_MIN = 1
 PERSPECTIVES_COUNT_MAX = len(Perspectives)  # n = number of perspectives

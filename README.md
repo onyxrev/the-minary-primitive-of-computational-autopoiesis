@@ -206,8 +206,8 @@ The paper (Section 7) describes several emergent behaviors visible in simulation
 python main.py [options]
 
 --consensus-strategy superposition|product (default: superposition)
---dimensions-strategy independent|coupled (default: independent)
---dimensions-concurrency N (default: all 19)
+--dimensions-strategy independent|coupled (default: coupled)
+--dimensions-concurrency N (default: 3)
 --perspectives-count N (default: all 5)
 --iterations-count-max N (default: 100,000)
 --random-seed N (for reproducibility)

@@ -252,7 +252,7 @@ The core engine and consensus code were written by a human. Visualization, CSV e
 
 ## License
 
-This code is made available under the **CC BY-NC-SA 4.0** (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International) License.
+This code is made available under the MIT License.
 
 Copyright 2026 Autopoetic.
 
